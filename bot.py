@@ -3,8 +3,9 @@ reload(sys)
 sys.setdefaultencoding('utf-8')
 import requests
 from bs4 import BeautifulSoup
-data = "realDonaldTrump"
-#data = raw_input("Enter the handle of the tweets you would like to see. ")
+
+data = raw_input("Enter the handle of the tweets you would like to see. ")
+
 def printTweets(username):
 
     page = requests.get("https://twitter.com/"+username)

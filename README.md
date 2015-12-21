@@ -11,7 +11,7 @@ Directions:
 
 - "p class = "TweetTextSize TweetTextSize -- 26 js-tweet-text tweet-text" data-aria-label-part = "0"  lang = "en">/p" 
 
-- Then wrote code to pull only p tags within the html reponse. Currently this script returns ~50 lines with the last 20 tweets, however there is significant data cleaning to do since there is markup within the <p> tag for bold, font, and hyperlinks. 
+- Then wrote code to pull only p tags within the html reponse. Currently this script returns ~50 lines with the last 20 tweets, however there is significant data cleaning to do since there is markup within the p tag for bold, font, and hyperlinks. 
 
 To solve this problem I suggest excel, or a good regular expression, however the final product will still probably contain some markup
  
